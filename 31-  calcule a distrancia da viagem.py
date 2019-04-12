@@ -1,3 +1,8 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
+
 d = int(input('Qual é a distrancia da viagem em Km:'))
 if d <= 200:
     v = float(d * 0.50)

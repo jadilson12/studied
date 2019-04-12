@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 soma = 0
 cont = 0
 for c in range(0,7):

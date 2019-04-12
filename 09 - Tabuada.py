@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 print("\n Tabuada \n")
 n = int(input("Digite um valor inteiro: "))
 print('{} + 0 = {}'.format(n, n + 0))

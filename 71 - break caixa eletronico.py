@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 print('='*30)
 print('{:^30}'.format('BRANCO CCC'))
 print('='*30)

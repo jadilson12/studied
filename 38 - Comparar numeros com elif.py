@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 n1 = int(input('Primeiro numeiro:'))
 n2 = int(input('Segundo numeiro'))
 if n1 > n2:

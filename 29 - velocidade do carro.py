@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 v = int(input('Digite a velocidade do carro:'))
 if v > 80:
     multa = float(v - 80) * 7.00

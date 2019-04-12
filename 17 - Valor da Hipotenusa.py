@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 import math
 a = float(input('Digite o cateto aposto em cm: '))
 b = float(input(('Digite o cateto adjacente em cm: ')))

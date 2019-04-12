@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 f = str(input('digite algo  ')).upper().replace(' ', '')
 c = ''
 for i in range(len(f) - 1, -1, -1):

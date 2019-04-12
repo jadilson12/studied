@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 print('*' * 35)
 print('Soma de 2 Valores')
 print('*' * 35)

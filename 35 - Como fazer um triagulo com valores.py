@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 a = float(input('Primeiro valor: '))
 b = float(input('Sengundo valor: '))
 c = float(input('Teceiro valor: '))

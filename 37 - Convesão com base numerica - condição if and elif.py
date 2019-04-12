@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 #Escreva um programa que leia um numero interiro qualquer e depois peça para comveter para base binaria
 n = int(input("Digite um numero inteiro : "))
 print('='*20)

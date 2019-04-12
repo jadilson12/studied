@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 n1 = int(input('Digite 1º valor: '))
 n2 = int(input('Digite 2º valor: '))
 n3 = int(input('Digite 3º valor: '))

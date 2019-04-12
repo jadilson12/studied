@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 cores = {
     'vermelho': '\033[31m',
     'verde': '\033[32m',

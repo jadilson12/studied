@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 from datetime import date
 ano_nasceu = int(input('O ano que você nasceu:'))
 ano_atual = date.today().year

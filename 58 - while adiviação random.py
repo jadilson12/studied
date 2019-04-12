@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 from random import randint
 pc = randint(0, 10)
 print(pc)

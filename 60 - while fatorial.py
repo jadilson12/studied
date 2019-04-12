@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 n = int(input('Digite uma valor : '))
 c = n
 f = 1

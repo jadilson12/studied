@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 frase = input('Digite seu nome completo: ')
 print('O nome  da {} tem [{}] letras'.format(frase, len(frase)))
 print('Todas palavras Mauscula: {} '.format(frase.upper()))

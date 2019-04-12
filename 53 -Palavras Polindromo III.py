@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 f = str(input('Digite uma frase  ')).upper().upper()
 palavras = f.split()
 junto = ''.join(palavras)

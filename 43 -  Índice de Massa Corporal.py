@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 peso = float(input('Digite o peso:'))
 altura = float(input('Digite altura:'))
 imc = peso /(altura ** 2)

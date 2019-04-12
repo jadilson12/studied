@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 n = input('Digite algo: ')
 print('Esse pritivo desse valor é: ',type(n))
 print('E alfabeto e cnumerico', n.isalnum())

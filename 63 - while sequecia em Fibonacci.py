@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 print('-='*30)
 print('Sequencia Fibonacci')
 print('-='*30)

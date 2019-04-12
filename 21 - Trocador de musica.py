@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 from pygame import mixer
 mixer.init()
 mixer.music.load('21song.mp3')

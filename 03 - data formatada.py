@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 print("*--------------------------------*")
 print("------Data formatada     --------")
 print("*--------------------------------*")

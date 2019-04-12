@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 print('{:=^40}'.format(' LOJAS J144DF '))
 preco = float(input('Qual é o valor do compras: R$'))
 print('''Selecione a forma de pagamento

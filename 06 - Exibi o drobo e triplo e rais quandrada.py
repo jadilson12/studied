@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 n1 = int(input('Digite um numero inteiro: '))
 d = n1 * 2
 t = n1 * 3

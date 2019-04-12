@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 n = int(input('Digite um valor'))
 cont = 0
 print('O numero informado é divisível por: ')

@@ -1,3 +1,6 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
 
 c=s =v = 0
 

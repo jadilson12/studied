@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 aluno = input('Digite o nome do aluno: ')
 nt1 = float(input('Digite primeira nota: '))
 nt2 = float(input('Digite segunda nota: '))

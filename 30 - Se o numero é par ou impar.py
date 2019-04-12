@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 n1 = float(input('Digite um valor: '))
 n2 = float(input('Digite outro valor: '))
 m = (n1 + n2)

@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 print('-='*20)
 print('-='*6, 'T A B U A D A','-='*6)
 print('-='*20)

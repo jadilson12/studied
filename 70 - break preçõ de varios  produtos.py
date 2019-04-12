@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 soma = total = cont = menor = totmil = 0
 barato = ' '
 while True:

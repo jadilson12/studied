@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 p='S'
 c=s=m=ep=0
 men = 1

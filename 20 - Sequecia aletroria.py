@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 aluno1 = input('Digite o nome do primeiro aluno: ')
 aluno2 = input('Digite o nome do segundo aluno: ')
 aluno3 = input('Digite o nome do terceiro aluno: ')

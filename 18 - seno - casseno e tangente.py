@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 from math import cos, tan, radians, sin
 ang = float(input('Digite um valor do angulo : '))
 sen = sin(radians(ang))

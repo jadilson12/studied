@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 tot18 = totH = totm20 = 0
 while True:
     idade = int(input('IDADE: '))

@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 print('\n -> Padaria do Seu Zé <- \n -> Destaque do  mês <- \n')
 f = str(input('Digite o nome do fucionario: '))
 s = float(input('Digite o sálario do {}: '.format(f)))

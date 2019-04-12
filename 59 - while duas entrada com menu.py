@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 from time import  sleep
 
 v1 = int(input('Digite o 1º valor: '))

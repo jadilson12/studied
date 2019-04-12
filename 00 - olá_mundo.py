@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 cores = {'amarelo': '\033[7;32m'}
 print('*'*35)
 print("*----Meu primeiro Script Python--*")

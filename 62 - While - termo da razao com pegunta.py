@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 print('Gerador de PA')
 print('-='*10)
 primeiro = int(input('Digite o 1ª termo de uma PA: '))

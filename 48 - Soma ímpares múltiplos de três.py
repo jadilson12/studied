@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 total = 0
 cont = 0
 for c in range(1, 501, 2):

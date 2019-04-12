@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 #escreva um programa para aprovar o emprestimo bancario para comprar uma casa.
 casa = float(input("Valor da casa: R$"))
 salario = float(input("Salário do comprador : R$"))

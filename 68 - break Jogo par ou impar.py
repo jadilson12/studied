@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 from random import randint
 print('-='*20)
 print('  Vamos jogar PAR ou IMPAR')

@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 print('*'*40)
 print("\033[7;31m---------Nome - Idade - Peso -----------\033[m")
 print('*'*40)

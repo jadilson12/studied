@@ -1,3 +1,7 @@
+# Ano 2018
+# exercício realizado durante o curso
+# @jadilson12
+
 import random
 
 n = float(input("Pense e digite um numero de 1 a 5 vou tentan adiviar:"))
