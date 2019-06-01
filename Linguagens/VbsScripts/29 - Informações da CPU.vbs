@@ -1,0 +1,1 @@
+msgbox ("Mensagem que será exibida na janela"), vbinformation, "Título da janela"
