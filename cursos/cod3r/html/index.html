@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercicios Html</title>
+    <style>
+        #conteudo {
+            padding: 30px 0px;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Exercícios HTML</h1>
+    </header>
+    <nav>
+    <a href wf-link="exercicios/texto0.html">00-texto</a> |
+    <a href wf-link="exercicios/texto1.html">01-texto</a> |
+    <a href wf-link="exercicios/texto2.html">02-texto</a> |
+    <a href wf-link="exercicios/lista.html">03-Lista</a> |
+    <a href wf-link="exercicios/listaAninhada.html">04-ListaAninhada</a> |
+    <a href wf-link="exercicios/link.html">05-Link</a> |
+    <a href wf-link="exercicios/form/form.html">07-Formuário</a> |
+    <a href wf-link="exercicios/images.html">08-Imagens</a> |
+    <a href wf-link="exercicios/video.html">09-Video</a>  |
+    <a href wf-link="exercicios/tagNaoVisuais.html">10-TagNaoVisuais</a> 
+    </nav>
+    <section id="conteudo"></section>
+    <footer>
+        Desenvolvido por jadilson
+    </footer>
+    <script>
+        document.querySelectorAll('[wf-link]').forEach(link => {
+            const conteudo = document.getElementById('conteudo')
+
+            link.onclick = function (e) {
+                e.preventDefault()
+                fetch(link.getAttribute('wf-link'))
+                    .then(resp => resp.text())
+                    .then(html => conteudo.innerHTML = html)
+            }
+        })
+    </script>
+</body>
+</html>

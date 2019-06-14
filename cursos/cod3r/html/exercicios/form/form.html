@@ -1,0 +1,49 @@
+<h1>Formulário</h1>
+
+<form>
+    <input type="text" name="nome">
+    <input type="password" name="senha">
+    <textarea name="obs" cols="30" rows="10"></textarea>
+    <div>
+        <input type="radio" name="radio" value="Admin">Admin
+        <input type="radio" name="radio" value="Regular">Regular 
+        <input type="radio" name="radio" value="Professor">Professor
+    </div>
+    <div>
+        <input type="checkbox" name="status">Ativo
+    </div>
+    <select name="estatdo">
+        <option>Selecione</option>
+        <option value="AC">Acre</option>
+        <option value="BA">Bahia</option>
+        <option value="DF">Distrito Federal</option>
+    </select>
+
+    <select name="interesse" multiple size="6">
+        <option value="js">Js</option>
+        <option value="java">Java</option>
+        <option value="python">Python</option>
+        <option value="C">C</option>
+        <option value="c++">C++</option>
+        <option value="html">HTML</option>
+    </select>
+
+    <!-- tradicional -->
+    <!-- <button type="submit">Incluir</button> -->
+
+    <button formaction="http://localhost:3003/usuarios" formmethod="POST">Incluir</button>
+    <button formaction="http://localhost:3003/usuarios/3" formmethod="POST">Atualizar</button>
+</form>
+<style>
+    
+    input,
+    select,
+    textarea {
+        display: block;
+        margin-bottom: 10px;
+    }
+    input[type=radio],
+    input[type=checkbox] {
+        display: inline;
+    }
+</style>
