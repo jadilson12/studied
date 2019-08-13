@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='UTF-8'>
+    <title>Modificando HTML #02</title>
+    <link rel='stylesheet' href='css/estilo.css'>
+</head>
+
+<body class='conteudo exercicio'>
+    <div>
+        <p>Texto Inicial</p>
+    </div>
+    <script>
+        const div = document.querySelector('div')
+        div.innerHTML = "Texto altenativo"
+        // div.outerHTML =  "Texto alternado"
+        div.insertAdjacentHTML('beforebegin', '<div>Antes inicio</div>')
+        div.insertAdjacentHTML('afterbegin', '<p>Depois</p>')
+        div.insertAdjacentHTML('beforeend', '<p>Antes do fim</p>')
+        div.insertAdjacentHTML('afterend', '<div>depois do fim</div>')
+
+        console.log(div.innerText);
+
+    </script>
+</body>
+
+</html>
