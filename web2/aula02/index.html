@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+
+    <title>Hello Word</title>
+</head>
+<body>
+
+    <div class="container">
+        <form method="post" action="aulaphp.php">
+            <div class="row">
+                <div class="input-field col s6">
+                    <input id="Nome" name="nome" type="text" class="validate">
+                    <label for="Nome">Nome</label>
+                </div>
+                <div class="input-field col s6">
+                    <input id="Data"  name="data" type="date" class="validate">
+                    <label for="Data">Data</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="email"  name="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s9">
+                    <input id="Endereço" name="endereco" type="text" class="validate">
+                    <label for="Endereço">Endereço</label>
+                </div>
+                <div class="input-field col s3">
+
+                    <select name="cidade" id="meuselect">
+                        <option value="gama"></option>
+                        <option value="bsb"></option>
+                        <option value="val"></option>
+                    </select>
+
+                </div>
+            </div>
+            <div class="row">
+                <button type="submit" class="waves-effect waves-light btn">Cadastrar</button>
+            </div>
+
+        </form>
+
+    </div>
+
+<script>
+    $(document).ready(function(){
+        $('#meuselect').formSelect();
+    });
+</script>
+</body>
+</html>

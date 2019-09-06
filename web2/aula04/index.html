@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="UTF-8">
+	<title>Desafio Aula 04</title>
+	
+	<!--Import Google Icon Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
+	
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+</head>
+<body>
+			<div class="container">
+				<nav>
+					<div class="nav-wrapper">
+						<a href="#" class="brand-logo">Logo</a>
+						<ul id="nav-mobile" class="right hide-on-med-and-down">
+							<li><a href="index.html"><i class="material-icons left">home</i>Home</a></li>
+							<li><a class="dropdown-trigger" href="#!" data-target="dropdown1">
+								<i class="material-icons left">face</i>Cliente
+								<i class="material-icons right">arrow_drop_down</i></a></li>
+							
+							<li><a class="dropdown-trigger" href="#!" data-target="dropdown1">
+								<i class="material-icons left">local_shipping</i>Produtos
+								<i class="material-icons right">arrow_drop_down</i></a></li>
+							<li><a class="dropdown-trigger" href="#!" data-target="dropdown1">
+								<i class="material-icons left">shopping_cart</i>Pedido
+								<i class="material-icons right">arrow_drop_down</i></a></li>
+						</ul>
+						</ul>
+					</div>
+				</nav>
+				
+				<div class="row">
+					<div class="col s4">
+						<h5 class="mr-2">Cadastrar Cliente</h5>
+					</div>
+					<form class="col s12" action="cadastroCliente.php" method="post">
+						<div class="row">
+							<div class="input-field col s6">
+								<i class="material-icons prefix">account_circle</i>
+								<input id="Nome"  name="Nome" type="text" class="validate">
+								<label for="Nome">Nome</label>
+							</div>
+							<div class="input-field col s6">
+								<i class="material-icons prefix">person_outline</i>
+								<input id="SobreNome" name="SobreNome"  type="tel" class="validate">
+								<label for="SobreNome">SobreNome</label>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field col s6">
+								<i class="material-icons prefix">email</i>
+								<input id="Email" type="email" name="Email"  class="validate">
+								<label for="Email">Email</label>
+							</div>
+							<div class="input-field col s6">
+								<i class="material-icons prefix">smartphone</i>
+								<input id="Celular" type="number" name="Celular" class="validate">
+								<label for="Celular">Celular</label>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field col s6">
+								<i class="material-icons prefix">phone</i>
+								<input id="TelefoneFixo1" type="number"  name="TelefoneFixo1" class="validate">
+								<label for="TelefoneFixo1">Telefone Fixo 1</label>
+							</div>
+							<div class="input-field col s6">
+								<i class="material-icons prefix">phone</i>
+								<input id="TelefoneFixo2" type="number" name="TelefoneFixo2"  class="validate">
+								<label for="TelefoneFixo2">Telefone Fixo 2</label>
+							</div>
+	
+						</div>
+						<div class="row">
+							<div class="input-field col s6">
+								<i class="material-icons prefix">apartment</i>
+								<input id="Rua" type="text" name="Rua"  class="validate">
+								<label for="Rua">Rua</label>
+							</div>
+							<div class="input-field col s6">
+								<i class="material-icons prefix">apartment</i>
+								<input id="Bairro" type="text"   name="Bairro"  class="validate">
+								<label for="Bairro">Bairro</label>
+							</div>
+	
+						</div>
+						<div class="row">
+							<div class="input-field col s6">
+								<i class="material-icons prefix">apartment</i>
+								<input id="Cep" type="text" name="Cep" class="validate">
+								<label for="Cep">Cep</label>
+							</div>
+							<div class="input-field col s6">
+								<i class="material-icons prefix">apartment</i>
+								<input id="Numero" type="number"  name="Numero" class="validate">
+								<label for="Numero">Numero</label>
+							</div>
+	
+						</div>
+						<div class="row">
+							<div class="input-field col s6">
+								<i class="material-icons prefix">apartment</i>
+								<input id="Cidade" type="text" name="Cidade" class="validate">
+								<label for="Cidade">Cidade</label>
+							</div>
+							<div class="input-field col s6">
+								<i class="material-icons prefix">apartment</i>
+								<input id="Estado" type="text" name="Estado" class="validate">
+								<label for="Estado">Estado</label>
+							</div>
+						</div>
+						<div>
+							<button type="submit" class="waves-effect waves-light btn"><i class="material-icons right">send</i>Enviar</button>
+						</div>
+					</form>
+				</div>
+			</div>
+			
+			
+			
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+			<!--JavaScript at end of body for optimized loading-->
+			<script type="text/javascript" src="js/materialize.min.js"></script>
+			<script type="text/javascript">
+          $( document ).ready(function() {
+              $(".dropdown-trigger").dropdown();
+          });
+			</script>
+</body>
+</html>
